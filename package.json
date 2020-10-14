@@ -1,0 +1,16 @@
+{
+  "name": "demoprotractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/protractor/bin/protractor conf.js",
+    "webdriver-update":"node node_modules/protractor/bin/webdriver-manager update"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.6.1",
+    "protractor": "^7.0.0"
+  }
+}
